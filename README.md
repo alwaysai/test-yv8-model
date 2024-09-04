@@ -31,4 +31,5 @@ aai app start
 ## Design
 This application script is used to test the performance of YOLOv8 models running against a video file input stream.  The ONNX model will execute either on the cpu or can be compiled to TENSORT runtime format depending on which edgeiq engine you choose (Engine.ONNX_RT or Engine.TENSOR_RT).  Future releases of this repo will support batch processing and ONNX runtime using CUDA.
 
-## ONNX Conversion  
+## ONNX Conversion
+To convert your YOLOv8 torch models to ONNX, use the scripts provide in the onnx_conversion folder in this repo.  The ultralytics conversion script is for use with edgeiq.  To work with DeepStream please use the NVIDIA conversion script.     
