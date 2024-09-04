@@ -1,0 +1,2 @@
+ARG ALWAYSAI_HW="x86-trt-22.12"
+FROM alwaysai/edgeiq-dev:${ALWAYSAI_HW}-2.5.0.post35-g3a6033b5
